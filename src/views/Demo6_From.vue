@@ -7,7 +7,7 @@
         <input v-model="applicant.first_name" type="text" name="first_name" id="first_name" />
       </div>
 
-      <!-- Lastname --1234>
+      <!-- Lastname --123456>
       <div>
         <label for="last_name">Lastname</label>
         <input v-model="applicant.last_name" type="text" name="last_name" id="last_name" />
