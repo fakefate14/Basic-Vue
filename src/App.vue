@@ -7,7 +7,7 @@
       <li><router-link to="/demo3"><button>Demo3 Data</button></router-link></li>
       <li><router-link to="/demo4"><button>Demo4 Compute&Method</button></router-link></li>
        <li><router-link to="/demo5"><button>Demo5 Binding</button></router-link></li>
-       <li><router-link to="/demo6"><button>Demo6 Form</button></router-link></li>
+       <li><router-link to="/demo6"><button>Demo6 Form & V-model</button></router-link></li>
                   
     </ul>
 
