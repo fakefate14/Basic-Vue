@@ -1,4 +1,5 @@
 <template>
+<!-- wait to melt component -->
   <div id="app">
     <ul>
       <li><router-link to="/"><button>Home</button></router-link></li>
