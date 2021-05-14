@@ -46,15 +46,13 @@ export default {
         fullname(){
             return this.firstname + " " + this.lastname
         }
+
     },
     methods:{
         getrandom1(){
             return Math.random()
         }
-    },
-
-
-
+    }
 }
 </script>
 
