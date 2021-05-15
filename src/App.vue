@@ -1,45 +1,57 @@
 <template>
-<!-- wait to melt component -->
   <div id="app">
-    <Header/>
 
-    <router-view></router-view>
 
-  <Footer @tricker007="tricker007" :customText="testText"/>
-  <span class="clock">{{text}}</span>
+    <Header />
+
+
+    <Content/>
+
+
+
+    <Footer v-on:Tricker001="Tricker001" :customText="testText" />
+    <span class="clock">{{text}}</span>
+
+
   </div>
 </template>
 
 <script>
-import Header from "../src/components/layout/Header.vue"
-import Footer from "@/components/layout/Footer.vue"
+import Header from "../src/components/layout/Header.vue";
+import Footer from "@/components/layout/Footer.vue";
+import moment from "moment";
+import Content from "../src/components/layout/Content"
+
+
 export default {
   name: "app",
-  components:{
+  components: {
     Header,
-    Footer
+    Footer,
+    Content
   },
-  data(){
-    return{
-      testText:"test Text from data",
-      text:""
-    }
+  data() {
+    return {
+      testText: "test Text from data",
+      text: "123",
+    };
   },
   methods: {
-    tricker007(event){
-      this.text = event
-    }
+    Tricker001(event) {
+      this.text = moment(event).format("MM/DD/YYYY hh:mm:ss");
+    },
   },
 };
 </script>
 
 
 
-<style>
-.contentli{
-  color:red
+<style scoped>
+.contentli {
+  color: red;
 }
-.clock{
+.clock {
   font-size: 10px;
 }
+
 </style>

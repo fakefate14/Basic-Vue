@@ -8,12 +8,14 @@
 export default {
   name: "Footer",
   props:["customText","color"],
-  mounted() {
-    setInterval(() => {
-      this.$emit('tricker007', Date());
-    }, 100);
-  },
+  mounted(){
 
+    setInterval(() => {
+      this.$emit('Tricker001', Date());
+    }, 100);
+
+    
+  }
 };
 </script>
 
