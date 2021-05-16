@@ -12,7 +12,7 @@ export default {
 
     setInterval(() => {
       this.$emit('Tricker001', Date());
-    }, 100);
+    }, 1000);
 
     
   }

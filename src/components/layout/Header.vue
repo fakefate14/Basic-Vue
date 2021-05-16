@@ -2,6 +2,7 @@
     <div id="header">
     <ul>
     <li><router-link to="/"><button>Home</button></router-link></li>
+    <li><router-link to="/longdo"><button>longdo maps</button></router-link></li>
     <li><router-link to="/demo1"><button>Demo1</button></router-link></li>
     <li><router-link to="/demo2"><button>Demo2 Event</button></router-link></li>
     <li><router-link to="/demo3"><button>Demo3 Data</button></router-link></li>
